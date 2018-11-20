@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	left: 0;
+
+}
+.menu{
+	height: 100px;
+}
+.menu ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	list-style-type: none;
+	overflow: hidden;
+	background:#26baee;
+	font-family: 'SpicyRice'; sans-serif;
+	margin-top: 0;
+	height: 100%;
+}
+
+.menu li {
+	float: left;
+	text-align: center;
+	margin-left: 20px;
+}
+
+.menu li a {
+	text-align: center;
+	display: inline-block;
+	color: white;
+	padding: 15px 17px;
+	text-decoration: none;
+	font-size: 20px;
+	transition: 2s;
+}
+
+.menu li a:hover {
+	color: #F47645;
+	background: white;
+	transition: 2s;
+}
+
+
+/*  ************daqui pra baixo main*******************    */
+
+.itens ul{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid red;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+
+
+
+/* toda li que está dentro de uma ul com classe'itens' no main
+alinhando cada li por linhas
+*/
+.itens li{
+	display: flex;
+	
+	flex-direction: row; /* define o sentido 
+	(se é em linha(row) ou coluna(column)) */
+	
+	border-bottom: 1px solid blue;
+	align-items: center; /* alinha horizontalmente*/
+	justify-content: center; /* alinha verticalmente */
+	/* essas propriedades vao ser para tudo que estiver dentro da li*/
+	}
+
+
+/*definindo a margem de toda imagem e todo titulo
+ que for da classe conteudo*/
+.conteudo img, h3{
+	margin: 40px;
+}
+
+
+/* todas as div com classe 'conteudo'
+cada div tem uma imagem e um titulo 
+abaixo to alinhando elas em coluna 
+ */
+.conteudo{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	margin:10px;
+}
+/* definir o footer com display flex, alinhar 
+os itens na horizontal e vertcial
+*/
+footer{
+	bottom: 0;
+	position: fixed;
+	height: 50px;
+	background-color:#26baee; 
+	width: 100%;
+	color: white;
+}

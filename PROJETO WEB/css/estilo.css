@@ -1,0 +1,264 @@
+*{
+	margin: 0;
+	left: 0;
+
+}
+
+.menu ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	list-style-type: none;
+	overflow: hidden;
+	background:#26baee;
+	font-family: 'SpicyRice'; sans-serif;
+	margin-top: 0;
+}
+
+.menu li {
+	float: left;
+	text-align: center;
+}
+
+.menu li a {
+	text-align: center;
+	display: inline-block;
+	color: white;
+	padding: 15px 17px;
+	text-decoration: none;
+	font-size: 20px;
+	transition: 2s;
+}
+
+.menu li a:hover {
+	color: #F47645;
+	background: white;
+	transition: 2s;
+}
+/* Perifericos */
+
+.cadeira1 img {
+	display: flex;
+	margin: 90;
+	margin-left: 140px;
+	
+}
+
+.cadeira1 h4 {
+	margin-left: 450px;
+	margin-top: 0;
+}
+
+.cadeira2 img {
+	display: flex;
+	margin-top: -390;
+	margin-left: 990px;
+	
+}
+
+.cadeira2 h3 {
+	margin-left: 490px;
+	margin-top: 88px;
+
+}
+
+.cadeira3 img {
+	display: flex;
+	margin-top: -390;
+	margin-left: 540px;
+	
+}
+
+.cadeira3 h3 {
+	margin-left: 980px;
+	margin-top: 88px;
+
+}
+.pcveneno1 img {
+	display: flex;
+	margin: 90;
+	margin-left: 140px;
+	
+}
+
+.pcveneno1 h4 {
+	margin-left: 250px;
+	margin-top: 0;
+}
+
+.pccarnage2 img {
+	display: flex;
+	margin-top: -390;
+	margin-left: 840px;
+	
+}
+
+.pccarnage2 h3 {pcfrirestorm
+	margin-left: 590px;
+	margin-top: 88px;
+
+}
+
+.pcfrirestorm3 img {
+	display: flex;
+	margin-top: -390;
+	margin-left: 540px;
+	
+}
+
+.pcfrirestorm3 h3 {
+	margin-left: 590px;
+	margin-top: 88px;
+
+}
+
+.teclado1 img {
+	display: flex;
+	margin: 90;
+	margin-left: 140px;
+	
+}
+
+.teclado1 h4 {
+	margin-left: 250px;
+	margin-top: 0;
+}
+
+.teclado2 img {
+	display: flex;
+	margin-top: -390;
+	margin-left: 840px;
+	
+}
+
+.teclado2 h3 {
+	margin-left: 590px;
+	margin-top: 88px;
+
+}
+
+.teclado3 img {
+	display: flex;
+	margin-top: -390;
+	margin-left: 540px;
+	
+}
+
+.teclado3 h3 {
+	margin-left: 590px;
+	margin-top: 88px;
+
+}
+
+.hardset1 img {
+	display: flex;
+	margin: 90;
+	margin-left: 140px;
+	
+}
+
+.hardset1 h4 {
+	margin-left: 250px;
+	margin-top: 0;
+}
+
+.hardset2 img {
+	display: flex;
+	margin-top: -390;
+	margin-left: 840px;
+	
+}
+
+.hardset2 h3 {
+	margin-left: 590px;
+	margin-top: 88px;
+
+}
+
+.hardset3 img {
+	display: flex;
+	margin-top: -390;
+	margin-left: 540px;
+	
+}
+
+.hardset3 h3 {
+	margin-left: 590px;
+	margin-top: 88px;
+
+}
+
+.mause1 img {
+	display: flex;
+	margin: 90;
+	margin-left: 140px;
+	
+}
+
+.mause1 h4 {
+	margin-left: 250px;
+	margin-top: 0;
+}
+
+.mause2 img {
+	display: flex;
+	margin-top: -390;
+	margin-left: 840px;
+	
+}
+
+.mause2 h3 {
+	margin-left: 590px;
+	margin-top: 88px;
+
+}
+
+.mause3 img {
+	display: flex;
+	margin-top: -390;
+	margin-left: 540px;
+	
+}
+
+.mause3 h3 {
+	margin-left: 590px;
+	margin-top: 88px;
+
+}
+/* Rodapé */
+
+footer {
+	margin-top: 400px;
+	display: flex;
+	width: 100%;
+	background-color: black;
+	height: 60px;
+}
+
+strong {
+	display: flex;
+	color: #26baee;
+	margin-left: 380px;
+	font-size: 20px;
+	margin-top: 20px;
+
+}
+
+.itens ul{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid red;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.itens li{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid blue;
+}
