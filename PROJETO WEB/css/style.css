@@ -40,6 +40,10 @@
 	transition: 2s;
 }
 
+.navbar-nav {
+	font-size: 28px;
+}
+
 
 /*  ************daqui pra baixo main*******************    */
 
@@ -91,6 +95,12 @@ abaixo to alinhando elas em coluna
 	text-align: center;
 	margin:10px;
 }
+
+.card {
+	margin-left: 240px;
+	margin-top: 50px;
+	display: inline-block;
+}
 /* definir o footer com display flex, alinhar 
 os itens na horizontal e vertcial
 */
@@ -98,7 +108,12 @@ footer{
 	bottom: 0;
 	position: fixed;
 	height: 50px;
-	background-color:#26baee; 
+	background-color:#343a40; 
 	width: 100%;
 	color: white;
+}
+
+strong {
+	margin-left: 650px;
+	margin-top: 10px;
 }
